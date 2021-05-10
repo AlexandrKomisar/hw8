@@ -1,0 +1,77 @@
+@font-face {
+  font-family: miso-bold;
+  src: url(fonts/miso-bold.ttf);
+}
+.app-section {
+  width: 64%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.item {
+  text-align: center;
+  padding-top: 5%;
+}
+
+IMG {
+  position: relative;
+}
+.flex-parent {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fdde7e;
+  padding: 1% 1%;
+}
+
+.flex-bronze {
+  flex-basis: 30%;
+  background: #ffffff;
+  justify-content: center;
+  box-shadow: 1px 3px 5px 3px rgb(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.flex-bronze:hover {
+  align-self: stretch;
+}
+.flex-gold {
+  flex-basis: 30%;
+  background-color: #ffffff;
+  justify-content: center;
+  box-shadow: 1px 3px 5px 3px rgb(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.flex-gold:hover {
+  align-self: stretch;
+}
+.flex-silver {
+  flex-basis: 30%;
+  background-color: #ffffff;
+  justify-content: center;
+  box-shadow: 1px 3px 5px 3px rgb(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.flex-silver:hover {
+  align-self: stretch;
+}
+h1 {
+  font-family: miso-bold;
+  color: #02995b;
+}
+h2 {
+  color: #333333;
+  margin-block-start: 0;
+}
+p {
+  color: #414141;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.cup {
+  z-index: 1;
+}
+.bean {
+  z-index: 2;
+  top: -70px;
+  left: -10px;
+}
